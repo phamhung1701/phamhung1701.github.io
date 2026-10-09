@@ -1,0 +1,2 @@
+
+(function(){var b=document.querySelector('.menu'),n=document.querySelector('.nav-links');if(b&&n){b.addEventListener('click',function(){var v=n.classList.toggle('open');b.setAttribute('aria-expanded',String(v));b.textContent=v?'Close':'Menu'});n.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){n.classList.remove('open');b.setAttribute('aria-expanded','false');b.textContent='Menu'})})}document.querySelectorAll('[data-year]').forEach(function(e){e.textContent=new Date().getFullYear()})})();
