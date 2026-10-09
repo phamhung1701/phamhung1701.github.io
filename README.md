@@ -1,16 +1,16 @@
-# Phạm Hưng — Game Development Portfolio
+# Phạm Hưng - Game Development Portfolio
 
 Personal website for Technical Game Design and Gameplay Programming.
 
 Site URL after GitHub Pages is enabled: https://phamhung1701.github.io
 
 ## Pages
-- index.html — home, projects, about, contact
-- cardpg.html — CardPG Unity roguelike case study
-- fps.html — confidentiality-safe FPS internship experience
-- resume.html — browser resume with print-to-PDF
-- style.css — responsive visual design
-- script.js — mobile navigation
+- index.html - home, projects, about, contact
+- cardpg.html - CardPG Unity roguelike case study
+- fps.html - confidentiality-safe FPS internship experience
+- resume.html - browser resume with print-to-PDF
+- style.css - responsive visual design
+- script.js - mobile navigation
 
 ## Deploy
 GitHub repository Settings → Pages → Deploy from a branch → main → /(root) → Save. GitHub Pages must be enabled by the account owner if it is not already configured.
