@@ -20,5 +20,8 @@ Owner-provided GIFs and screenshots are in assets/. Animated GIF examples play a
 ## Source documents
 docs/CardPG_GDD.md and docs/CardPG_Feature_Case_Study.md are historical October 9, 2026 snapshots. Their player-facing terminology was updated on October 14, 2026; mechanics and status evidence remain from the original snapshots. Legacy filenames and Unity source identifiers are preserved. Current media demonstrates the supplied prototype, without establishing human-tested balance or rerunning Unity tests.
 
+## Game data
+The cleaned owner-provided workbook is available at docs/Dealbreak_GameData.xlsx and linked from the Dealbreak page. It retains named entries, numeric values, and implementation statuses; draft data is presented as work in progress.
+
 ## Deployment
 GitHub Pages serves main at the repository root. The portfolio uses relative links and static HTML/CSS/JS.
