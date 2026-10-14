@@ -1,28 +1,24 @@
-# Phạm Hưng - Game Development Portfolio
+# Phạm Hưng — Game Design Portfolio
 
-Personal website for Technical Game Design and Gameplay Programming.
+English, dark-theme portfolio focused on game design, with real Dealbreak previews.
 
-Site URL after GitHub Pages is enabled: https://phamhung1701.github.io
+Live site: https://phamhung1701.github.io
 
 ## Pages
-- index.html - home, projects, about, contact
-- cardpg.html - CardPG Unity roguelike case study
-- ace-pairing.html - dedicated Ace Pairing feature case study
-- docs/CardPG_GDD.md - original October 9 design brief
-- docs/CardPG_Feature_Case_Study.md - original Ace Pairing feature notes
-- fps.html - confidentiality-safe FPS internship experience
-- resume.html - browser resume with print-to-PDF
-- style.css - responsive visual design
-- script.js - mobile navigation
-
-## Deploy
-GitHub repository Settings → Pages → Deploy from a branch → main → /(root) → Save. GitHub Pages must be enabled by the account owner if it is not already configured.
+- index.html — selected work, about, contact
+- dealbreak.html — Dealbreak design case study and gameplay previews
+- cardpg.html — redirect preserving old project links and section anchors
+- ace-pairing.html — focused combat feature design case study
+- fps.html — Game Programmer internship contributions
+- resume.html — web resume with print-to-PDF
 
 ## Media
-No actual gameplay footage is included. Card visuals on the homepage are CSS illustrations; CardPG has an explicitly labeled gameplay capture placeholder. Add real approved screenshots under assets/ and update the HTML. Do not publish proprietary Koei Tecmo material without permission.
+Gameplay video: https://youtu.be/S6R79Jhc0YA
 
-## Accuracy
-Project descriptions are based on the CardPG public repository README and user-provided CV (October 2026). The CardPG test counts are a historical recorded checkpoint, not a newly verified test run. CardPG remains an in-development prototype without a standalone release.
+Owner-provided GIFs and screenshots are in assets/. Animated examples start as still frames; the visitor can play or stop each animation. Additional interface previews are collapsed to keep the main reading path short. No build step or external font dependency is required.
 
-## Portfolio source documents
-The two Markdown files under docs/ are copies of the owner's October 9, 2026 research snapshots. They intentionally distinguish implemented/tested, implemented/acceptance pending, and planned/draft status. The rendered HTML case studies are curated summaries, not replacements for the complete documents. Neither document implies a new Unity test run, user playtest sign-off, or finished game balance.
+## Source documents
+docs/CardPG_GDD.md and docs/CardPG_Feature_Case_Study.md are historical October 9, 2026 snapshots. Their original naming and mechanics/status evidence are preserved; the project is now Dealbreak. Current media demonstrates the supplied prototype, without establishing human-tested balance or rerunning Unity tests.
+
+## Deployment
+GitHub Pages serves main at the repository root. The portfolio uses relative links and static HTML/CSS/JS.

@@ -1,2 +1,14 @@
-
-(function(){var b=document.querySelector('.menu'),n=document.querySelector('.nav-links');if(b&&n){b.addEventListener('click',function(){var v=n.classList.toggle('open');b.setAttribute('aria-expanded',String(v));b.textContent=v?'Close':'Menu'});n.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){n.classList.remove('open');b.setAttribute('aria-expanded','false');b.textContent='Menu'})})}document.querySelectorAll('[data-year]').forEach(function(e){e.textContent=new Date().getFullYear()})})();
+(() => {
+  const button = document.querySelector('.menu');
+  const nav = document.querySelector('.nav-links');
+  const closeMenu = () => { nav?.classList.remove('open'); button?.setAttribute('aria-expanded', 'false'); if (button) button.textContent = 'Menu'; };
+  button?.addEventListener('click', () => { const open = nav.classList.toggle('open'); button.setAttribute('aria-expanded', String(open)); button.textContent = open ? 'Close' : 'Menu'; });
+  nav?.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape' && nav?.classList.contains('open')) { closeMenu(); button.focus(); } });
+  document.querySelectorAll('.motion-toggle').forEach(control => {
+    const img = control.closest('figure').querySelector('img');
+    const still = img.getAttribute('src');
+    control.addEventListener('click', () => { const playing = control.getAttribute('aria-pressed') !== 'true'; img.src = playing ? img.dataset.motionSrc : still; control.setAttribute('aria-pressed', String(playing)); control.textContent = playing ? 'Stop animation' : 'Play animation'; });
+  });
+  document.querySelectorAll('[data-year]').forEach(item => { item.textContent = new Date().getFullYear(); });
+})();
