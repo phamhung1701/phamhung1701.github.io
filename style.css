@@ -7,3 +7,5 @@
 @media print{.header,.footer,.no-print,.skip{display:none!important}body{background:white;color:black}.resume-wrap{width:100%;padding:0}.resume-wrap>.eyebrow,.resume-wrap>h1{display:none}.resume-paper{margin:0;padding:0;border:0;background:white}.resume-paper h2{margin-top:14px}.resume-paper p,.resume-paper li{font-size:9.5pt}.resume-paper li{margin-bottom:2px}@page{size:A4;margin:15mm}}
 
 .hero{padding-block:44px 36px}.hero h1{font-size:clamp(2.6rem,4.5vw,3.35rem)}.hero .tiny{margin-top:20px}
+
+.project.compact:first-of-type{margin-top:0;padding-top:0;border-top:0}
