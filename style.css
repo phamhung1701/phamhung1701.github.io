@@ -10,13 +10,15 @@
 
 .project.compact:first-of-type{margin-top:0;padding-top:0;border-top:0}
 
-/* Align project descriptions with their images below the headings. */
+/* Keep headings and imagery on the left; align copy with the image. */
 .project.compact{row-gap:0;grid-template-rows:auto auto}
-.project.compact>.project-heading{grid-column:1;grid-row:1}
-.project.compact>.project-image{grid-column:1;grid-row:2;align-self:start}
+.project.compact>.project-visual{display:contents}
+.project.compact .project-heading{grid-column:1;grid-row:1}
+.project.compact .project-image{grid-column:1;grid-row:2;align-self:start}
 .project.compact>.project-description{grid-column:2;grid-row:2}
 .project.compact>.project-description>p:first-child{margin-top:0}
 @media(max-width:760px){
   .project.compact{row-gap:16px;grid-template-rows:none}
-  .project.compact>.project-heading,.project.compact>.project-image,.project.compact>.project-description{grid-column:1;grid-row:auto}
+  .project.compact>.project-visual{display:block}
+  .project.compact>.project-description{grid-column:1;grid-row:auto}
 }
