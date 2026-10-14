@@ -15,7 +15,7 @@ Live site: https://phamhung1701.github.io
 ## Media
 Gameplay video: https://youtu.be/S6R79Jhc0YA
 
-Owner-provided GIFs and screenshots are in assets/. Animated GIF examples play automatically without playback controls. Additional interface previews are collapsed to keep the main reading path short. No build step or external font dependency is required.
+Owner-provided GIFs and screenshots are in assets/. The FPS case study includes five owner-supplied team-project screenshots from 3.zip, with full-size image links. Animated GIF examples play automatically without playback controls. Additional interface previews are collapsed to keep the main reading path short. No build step or external font dependency is required.
 
 ## Source documents
 docs/CardPG_GDD.md and docs/CardPG_Feature_Case_Study.md are historical October 9, 2026 snapshots. Their player-facing terminology was updated on October 14, 2026; mechanics and status evidence remain from the original snapshots. Legacy filenames and Unity source identifiers are preserved. Current media demonstrates the supplied prototype, without establishing human-tested balance or rerunning Unity tests.
